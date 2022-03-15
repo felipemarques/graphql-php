@@ -1,0 +1,17 @@
+{
+    "name": "felipe/php",
+    "authors": [
+        {
+            "name": "Felipe Marques",
+            "email": "felipe.marques@felipemarques.com.br"
+        }
+    ],
+    "require": {
+        "webonyx/graphql-php": "^14.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\GraphQL\\": "src"
+        }
+    }
+}
